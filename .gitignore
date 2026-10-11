@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+npm-debug.log*
+pnpm-lock.yaml
+yarn.lock
+.DS_Store
+Thumbs.db

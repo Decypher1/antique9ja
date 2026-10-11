@@ -1,0 +1,20 @@
+{
+  "name": "antique9ja",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A full-stack ecommerce learning project for antique and vintage products in Nigeria.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace apps/api",
+    "dev:api": "npm run dev --workspace apps/api",
+    "dev:web": "npm run dev --workspace apps/web",
+    "build": "npm run build --workspaces",
+    "typecheck": "npm run typecheck --workspaces"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
